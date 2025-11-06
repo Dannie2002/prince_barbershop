@@ -14,17 +14,18 @@ const About = () => {
     <section id="about" className='min-h-screen bg-[#ECEEDF] relative' >
    
       <div className="container mx-auto py-6 px-4 lg:py-24 flex flex-col items-center justify-center">
-        
-          <h1 className="uppercase text-[42px] leading-[42px] text-[#494709] lg:text-[54px] lg:leading-[54px] font-bold text-center mb-8 granush lg:max-w-2xl"data-aos="fade-down" data-aos-duration="2500">Know Everything about <span className='text-[#D6BD98]'>Prince Barbershop</span></h1>
-        
+        <h1 className="uppercase text-[42px] leading-[42px] text-[#494709] lg:text-[54px] lg:leading-[54px] font-bold text-center mb-8 granush lg:max-w-2xl"data-aos="fade-down" data-aos-duration="2500">Know Everything about <span className='text-[#D6BD98]'>Prince Barbershop</span></h1>
+
 
        <div className="grid grid-cols-1 md:grid-cols-6 gap-6 md:max-w-[1200px] md:auto-rows-[180px]">
 
-           <div className="relative col-1 md:col-span-3 md:row-span-2 overflow-hidden rounded-2xl group bg-[#697565] p-8 md:p-12" data-aos="fade-right" data-aos-duration="2500">
+           <div className="relative col-1 md:col-span-3 md:row-span-2 overflow-hidden rounded-2xl group bg-[#0b0b0b] p-8 md:p-12" data-aos="fade-right" data-aos-duration="2500">
             <div className='absolute inset-0 opacity-10 -z-10'>
               <img src={Noise} alt="Noise texture" className='w-full h-full object-cover'/>
             </div>
-       <h1 className='font-bold text-3xl md:text-4xl granush uppercase tracking-wide text-[#cda70d]'>Who we are</h1>
+            <div className='rounded-full blur-2xl absolute top-0 left-0 w-22 h-full bg-gradient-to-b from-[#37569f] via-transparent to-transparent -z-10'></div>
+             <div className='rounded-full blur-2xl absolute bottom-0  right-0 w-22 h-33 bg-gradient-to-b from-[#37569f] via-transparent to-transparent -z-10'></div>
+       <h1 className='font-bold text-3xl md:text-4xl granush uppercase tracking-wide text-[#d9d8d1]'> <span className='text-[#D6BD98]'>Who</span> we are</h1>
        <p className='mt-4 text-[20px] md:text-[19px] text-[#F7F4EA] leading-relaxed'>Prince Executive Barbershop is Malawi's premier grooming destination, where traditional barbering techniques meet modern style. 
         We've been serving the community with exceptional haircuts, beard grooming, and styling services for over a decade.</p>
         <a href='' className='inline-block mt-6 px-12 rounded-lg py-2 text-[#697565] bg-[#F7F4EA] hover:bg-[#D6BD98] font-bold border-b-2 border-transparent tracking-wider hover:border-white hover:scale-104 hover:text-white transition-all duration-300'>Learn More</a>
@@ -39,7 +40,7 @@ const About = () => {
               <img src={Noise} alt="Noise texture" className='w-full h-full object-cover'/>
             </div>
              <div className='space-y-4 md:w-1/2 lg:space-y-0'>
-                    <h1 className='font-bold text-[42px] leading-[42px] md:text-4xl text-[#D6BD98] granush uppercase tracking-normal'>
+                    <h1 className='font-bold text-[42px] leading-[42px] md:text-4xl text-[#cda70d] granush uppercase tracking-normal'>
               How Our Barbershop Started
                       </h1>
                      <p className="text-[#F7F4EA] leading-relaxed text-[20px] md:text-[20+px]">Founded with a vision to bring world-class grooming services to Malawi, Prince Barbershop began as a small shop with big dreams. Our founder, Prince, started with just one chair and a passion for the art of barbering.</p>
